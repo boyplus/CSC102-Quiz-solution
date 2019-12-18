@@ -9,7 +9,6 @@ public class SecondMinMax{
 			arr[i] = sc.nextDouble();
 		}
 		Arrays.sort(arr);
-		System.out.printf("%.2f ",arr[1]);
-		System.out.printf("%.2f\n",arr[n-2]);
+		System.out.println(arr[1]+" "+arr[n-2]);
 	}
 }

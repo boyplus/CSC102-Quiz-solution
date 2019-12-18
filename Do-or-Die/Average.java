@@ -17,7 +17,7 @@ public class Average{
 			for(int j=0;j<col;j++){
 				sum+=arr[i][j];
 			}
-			System.out.printf("%.2f ",sum/col);
+			System.out.print(sum/col+" ");
 		}
 		//Calculate average of each column
 		System.out.println("\nAverage of each column:");
@@ -26,7 +26,7 @@ public class Average{
 			for(int j=0;j<row;j++){
 				sum+=arr[j][i];
 			}
-			System.out.printf("%.2f ",sum/row);
+			System.out.print(sum/row+" ");
 		}
 		System.out.println("");
 	}
